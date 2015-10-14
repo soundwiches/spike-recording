@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846AFD251BCE14AA00460256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AFD241BCE14AA00460256 /* AppDelegate.swift */; };
+		846AFD271BCE14AA00460256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AFD261BCE14AA00460256 /* ViewController.swift */; };
+		846AFD2A1BCE14AA00460256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846AFD281BCE14AA00460256 /* Main.storyboard */; };
+		846AFD2C1BCE14AA00460256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846AFD2B1BCE14AA00460256 /* Assets.xcassets */; };
+		846AFD2F1BCE14AA00460256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846AFD2D1BCE14AA00460256 /* LaunchScreen.storyboard */; };
+		846AFD3A1BCE14AA00460256 /* spike_recordingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AFD391BCE14AA00460256 /* spike_recordingTests.swift */; };
+		846AFD451BCE14AA00460256 /* spike_recordingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AFD441BCE14AA00460256 /* spike_recordingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846AFD361BCE14AA00460256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846AFD191BCE14AA00460256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846AFD201BCE14AA00460256;
+			remoteInfo = "spike-recording";
+		};
+		846AFD411BCE14AA00460256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846AFD191BCE14AA00460256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846AFD201BCE14AA00460256;
+			remoteInfo = "spike-recording";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846AFD211BCE14AA00460256 /* spike-recording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spike-recording.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AFD241BCE14AA00460256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846AFD261BCE14AA00460256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846AFD291BCE14AA00460256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846AFD2B1BCE14AA00460256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846AFD2E1BCE14AA00460256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846AFD301BCE14AA00460256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846AFD351BCE14AA00460256 /* spike-recordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spike-recordingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AFD391BCE14AA00460256 /* spike_recordingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spike_recordingTests.swift; sourceTree = "<group>"; };
+		846AFD3B1BCE14AA00460256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846AFD401BCE14AA00460256 /* spike-recordingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spike-recordingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AFD441BCE14AA00460256 /* spike_recordingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spike_recordingUITests.swift; sourceTree = "<group>"; };
+		846AFD461BCE14AA00460256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846AFD1E1BCE14AA00460256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD321BCE14AA00460256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD3D1BCE14AA00460256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846AFD181BCE14AA00460256 = {
+			isa = PBXGroup;
+			children = (
+				846AFD231BCE14AA00460256 /* spike-recording */,
+				846AFD381BCE14AA00460256 /* spike-recordingTests */,
+				846AFD431BCE14AA00460256 /* spike-recordingUITests */,
+				846AFD221BCE14AA00460256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846AFD221BCE14AA00460256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846AFD211BCE14AA00460256 /* spike-recording.app */,
+				846AFD351BCE14AA00460256 /* spike-recordingTests.xctest */,
+				846AFD401BCE14AA00460256 /* spike-recordingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846AFD231BCE14AA00460256 /* spike-recording */ = {
+			isa = PBXGroup;
+			children = (
+				846AFD241BCE14AA00460256 /* AppDelegate.swift */,
+				846AFD261BCE14AA00460256 /* ViewController.swift */,
+				846AFD281BCE14AA00460256 /* Main.storyboard */,
+				846AFD2B1BCE14AA00460256 /* Assets.xcassets */,
+				846AFD2D1BCE14AA00460256 /* LaunchScreen.storyboard */,
+				846AFD301BCE14AA00460256 /* Info.plist */,
+			);
+			path = "spike-recording";
+			sourceTree = "<group>";
+		};
+		846AFD381BCE14AA00460256 /* spike-recordingTests */ = {
+			isa = PBXGroup;
+			children = (
+				846AFD391BCE14AA00460256 /* spike_recordingTests.swift */,
+				846AFD3B1BCE14AA00460256 /* Info.plist */,
+			);
+			path = "spike-recordingTests";
+			sourceTree = "<group>";
+		};
+		846AFD431BCE14AA00460256 /* spike-recordingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846AFD441BCE14AA00460256 /* spike_recordingUITests.swift */,
+				846AFD461BCE14AA00460256 /* Info.plist */,
+			);
+			path = "spike-recordingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846AFD201BCE14AA00460256 /* spike-recording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AFD491BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recording" */;
+			buildPhases = (
+				846AFD1D1BCE14AA00460256 /* Sources */,
+				846AFD1E1BCE14AA00460256 /* Frameworks */,
+				846AFD1F1BCE14AA00460256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spike-recording";
+			productName = "spike-recording";
+			productReference = 846AFD211BCE14AA00460256 /* spike-recording.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846AFD341BCE14AA00460256 /* spike-recordingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AFD4C1BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recordingTests" */;
+			buildPhases = (
+				846AFD311BCE14AA00460256 /* Sources */,
+				846AFD321BCE14AA00460256 /* Frameworks */,
+				846AFD331BCE14AA00460256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846AFD371BCE14AA00460256 /* PBXTargetDependency */,
+			);
+			name = "spike-recordingTests";
+			productName = "spike-recordingTests";
+			productReference = 846AFD351BCE14AA00460256 /* spike-recordingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846AFD3F1BCE14AA00460256 /* spike-recordingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846AFD4F1BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recordingUITests" */;
+			buildPhases = (
+				846AFD3C1BCE14AA00460256 /* Sources */,
+				846AFD3D1BCE14AA00460256 /* Frameworks */,
+				846AFD3E1BCE14AA00460256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846AFD421BCE14AA00460256 /* PBXTargetDependency */,
+			);
+			name = "spike-recordingUITests";
+			productName = "spike-recordingUITests";
+			productReference = 846AFD401BCE14AA00460256 /* spike-recordingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846AFD191BCE14AA00460256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mystery Command";
+				TargetAttributes = {
+					846AFD201BCE14AA00460256 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					846AFD341BCE14AA00460256 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 846AFD201BCE14AA00460256;
+					};
+					846AFD3F1BCE14AA00460256 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 846AFD201BCE14AA00460256;
+					};
+				};
+			};
+			buildConfigurationList = 846AFD1C1BCE14AA00460256 /* Build configuration list for PBXProject "spike-recording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846AFD181BCE14AA00460256;
+			productRefGroup = 846AFD221BCE14AA00460256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846AFD201BCE14AA00460256 /* spike-recording */,
+				846AFD341BCE14AA00460256 /* spike-recordingTests */,
+				846AFD3F1BCE14AA00460256 /* spike-recordingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846AFD1F1BCE14AA00460256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AFD2F1BCE14AA00460256 /* LaunchScreen.storyboard in Resources */,
+				846AFD2C1BCE14AA00460256 /* Assets.xcassets in Resources */,
+				846AFD2A1BCE14AA00460256 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD331BCE14AA00460256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD3E1BCE14AA00460256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846AFD1D1BCE14AA00460256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AFD271BCE14AA00460256 /* ViewController.swift in Sources */,
+				846AFD251BCE14AA00460256 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD311BCE14AA00460256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AFD3A1BCE14AA00460256 /* spike_recordingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846AFD3C1BCE14AA00460256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846AFD451BCE14AA00460256 /* spike_recordingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846AFD371BCE14AA00460256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846AFD201BCE14AA00460256 /* spike-recording */;
+			targetProxy = 846AFD361BCE14AA00460256 /* PBXContainerItemProxy */;
+		};
+		846AFD421BCE14AA00460256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846AFD201BCE14AA00460256 /* spike-recording */;
+			targetProxy = 846AFD411BCE14AA00460256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846AFD281BCE14AA00460256 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846AFD291BCE14AA00460256 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846AFD2D1BCE14AA00460256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846AFD2E1BCE14AA00460256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846AFD471BCE14AA00460256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846AFD481BCE14AA00460256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846AFD4A1BCE14AA00460256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "spike-recording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846AFD4B1BCE14AA00460256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "spike-recording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846AFD4D1BCE14AA00460256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "spike-recordingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recordingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spike-recording.app/spike-recording";
+			};
+			name = Debug;
+		};
+		846AFD4E1BCE14AA00460256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "spike-recordingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recordingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spike-recording.app/spike-recording";
+			};
+			name = Release;
+		};
+		846AFD501BCE14AA00460256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "spike-recordingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recordingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "spike-recording";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		846AFD511BCE14AA00460256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "spike-recordingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysterycommand.spike-recordingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "spike-recording";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846AFD1C1BCE14AA00460256 /* Build configuration list for PBXProject "spike-recording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AFD471BCE14AA00460256 /* Debug */,
+				846AFD481BCE14AA00460256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846AFD491BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AFD4A1BCE14AA00460256 /* Debug */,
+				846AFD4B1BCE14AA00460256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846AFD4C1BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recordingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AFD4D1BCE14AA00460256 /* Debug */,
+				846AFD4E1BCE14AA00460256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846AFD4F1BCE14AA00460256 /* Build configuration list for PBXNativeTarget "spike-recordingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846AFD501BCE14AA00460256 /* Debug */,
+				846AFD511BCE14AA00460256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846AFD191BCE14AA00460256 /* Project object */;
+}
